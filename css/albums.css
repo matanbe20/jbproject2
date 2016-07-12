@@ -1,0 +1,88 @@
+#albums .no-albums div{
+    font-size: 55px;
+    font-weight: bold;
+    color: darkgray;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -320px;
+}
+#albums .albums-container{
+    position: relative;
+    top: -390px;
+    margin-top:50px;
+    padding: 25px;
+}
+#albums .albums-container .album-style{
+    position: relative;
+    display: none;
+    cursor: pointer;
+    z-index: 1616161;
+    margin: 0 25px 60px 25px;
+    width:320px;
+    height:250px;
+    opacity:0.8;
+    transition: all 0.3s;
+}
+
+@media only screen and (max-width: 1366px){
+    #albums .albums-container .album-style{
+        margin: 0 -30px 60px 25px;
+    }
+}
+
+#albums .albums-container .album-style:hover{
+    opacity:1;
+}
+#albums .albums-container .album-style:focus{
+    opacity:1;
+}
+#albums .albums-container .album-style img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    transition: all 0.5s;
+    box-shadow: 15px 15px 30px rgba(30,18,84,0.55);
+    border: 2px solid #4527A0;
+    transform: translate(-50%, 0);
+}
+
+#albums .albums-container .album-style .playstyle{
+    display:none;
+    transition:all 0.3s;
+    position: absolute;
+    font-size: 3em;
+    color: white;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4527A0;
+}
+
+#albums .albums-container .album-style:hover .playstyle{
+     display: inline;
+ }
+#albums .albums-container .album-style:focus .playstyle{
+    display: inline;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4527A0;
+}
+
+#albums .albums-container .album-style .album-title{
+    display: inline-block;
+    width: 320px;
+    text-align: center;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 20px;
+    color: #512DA8;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4527A0;
+}

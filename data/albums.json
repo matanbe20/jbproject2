@@ -1,0 +1,50 @@
+[
+  {
+    "album_artist": "Jonny Jones",
+    "album_id": 3213,
+    "album_image": "http://www.mentalfloss.com/wp-content/uploads/2009/01/Nas-gods-son-music-album.jpg",
+    "album_name": "GOD'S SON",
+    "album_songs":[
+      "http://www.stephaniequinn.com/Music/Handel%20-%20Entrance%20of%20the%20Queen%20of%20Sheba.mp3",
+      "http://www.stephaniequinn.com/Music/Hungarian%20Dance.mp3",
+      "http://www.stephaniequinn.com/Music/Mouret%20-%20Rondeau.mp3",
+      "http://www.tonycuffe.com/mp3/girlwho.mp3"
+    ]
+  },
+  {
+    "album_artist": "Gibor et Gibor",
+    "album_id": 545,
+    "album_image": "https://upload.wikimedia.org/wikipedia/en/7/7f/Radio_Music_Society_(Esperanza_Spalding_album)_cover.jpg",
+    "album_name": "Sweet Me",
+    "album_songs":[
+      "http://www.stephaniequinn.com/Music/Handel%20-%20Entrance%20of%20the%20Queen%20of%20Sheba.mp3",
+      "http://www.stephaniequinn.com/Music/Hungarian%20Dance.mp3",
+      "http://www.stephaniequinn.com/Music/Mouret%20-%20Rondeau.mp3",
+      "http://www.tonycuffe.com/mp3/girlwho.mp3"
+    ]
+  },
+  {
+    "album_artist": "Ronaldo",
+    "album_id": 443,
+    "album_image": "http://cdn3.pitchfork.com/albums/22397/homepage_large.bc424fe3.jpg",
+    "album_name": "JessyH",
+    "album_songs":[
+      "http://www.stephaniequinn.com/Music/Handel%20-%20Entrance%20of%20the%20Queen%20of%20Sheba.mp3",
+      "http://www.stephaniequinn.com/Music/Hungarian%20Dance.mp3",
+      "http://www.stephaniequinn.com/Music/Mouret%20-%20Rondeau.mp3",
+      "http://www.tonycuffe.com/mp3/girlwho.mp3"
+    ]
+  },
+  {
+    "album_artist": "Bob Marley",
+    "album_id": 89789,
+    "album_image": "https://upload.wikimedia.org/wikipedia/en/3/33/BobMarley-Rebel_Music.jpg",
+    "album_name": "Rebel Music",
+    "album_songs":[
+      "http://www.stephaniequinn.com/Music/Handel%20-%20Entrance%20of%20the%20Queen%20of%20Sheba.mp3",
+      "http://www.stephaniequinn.com/Music/Hungarian%20Dance.mp3",
+      "http://www.stephaniequinn.com/Music/Mouret%20-%20Rondeau.mp3",
+      "http://www.tonycuffe.com/mp3/girlwho.mp3"
+    ]
+  }
+]

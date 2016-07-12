@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Album</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Main Styles -->
+    <link type="text/css"href="css/style.css" rel="stylesheet">
+    <link type="text/css"href="css/modal.css" rel="stylesheet">
+    <link type="text/css"href="css/player.css" rel="stylesheet">
+    <link type="text/css"href="css/control.css" rel="stylesheet">
+    <link type="text/css"href="css/albums.css" rel="stylesheet">
+    <link type="text/css"href="css/animations.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="modal">
+        <div class="overlay"></div>
+        <div class="modal-form album">
+            <form action="">
+                <h2>Add a New Album <i class="fa fa-music  swing" aria-hidden="true"></i></h2>
+                <span class="modal-mini-title">Album Name:</span><br>
+                <input type="text" id="album-name"><br>
+                <span class="modal-mini-title">Artist Name:</span><br>
+                <input type="text" id="artist-name"><br>
+                <span class="modal-mini-title">Image URL:</span><br>
+                <input type="text" id="image-url" style="width: 275px;"><br><br>
+                <input type="button" id="add-album" class="main-btn" value="Save & Continue">
+                <div class="image-container">
+                    <div style="transform: rotate(45deg)">Album's Cover</div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-form songs">
+            <form action="">
+                <h2>Add Songs to Album <i class="fa fa-pencil-square-o swing" aria-hidden="true"></i></i></h2>
+                <div class="songs-url-container">
+                    <span class="modal-mini-title">Song Name & URL:</span>
+                    <p class="song-input"><input type="text" class="song-name" placeholder="Song Name"><input type="text" class="song-url" placeholder="Song URL"></p>
+                    <span class="modal-mini-title">Song Name & URL:</span>
+                    <p class="song-input"><input type="text" class="song-name" placeholder="Song Name"><input type="text" class="song-url" placeholder="Song URL"></p>
+                    <span class="modal-mini-title">Song Name & URL:</span>
+                    <p class="song-input"><input type="text" class="song-name" placeholder="Song Name"><input type="text" class="song-url" placeholder="Song URL"></p>
+                </div><br>
+                <input type="button" id="save-album" class="main-btn" value="Add Album">
+                <input type="button" id="more-songs" class="songs-btn" value="More Songs">
+            </form>
+        </div>
+    </div>
+    <main id="wrapper">
+         <header>
+             <h1 class="main-title"><i class="fa fa-music swing" aria-hidden="true"></i> Matan's Music Library</h1>
+             <nav class="control">
+                 <div class="adding-album">
+                     <i class="fa fa-plus-circle add-plus"></i><span id="show-modal">Add a New Album</span>
+                 </div>
+                 <div class="search">
+                     <input type="text" id="search-input" placeholder="Search an Album">
+                     <i class="fa fa-search" id="search-btn"></i>
+                 </div>
+             </nav>
+         </header>
+        <section id="player">
+            <h3 class="player-album-title"></h3>
+            <div class="spinning-disc"><img class="spinner" src=""></div>
+            <audio src="http://www.tonycuffe.com/mp3/tail%20toddle.mp3" controls></audio>
+            <div class="disc-circle"></div>
+            <h4>Playlist:</h4>
+            <div class="songs-container">
+                <ol class="songs-list"></ol>
+            </div>
+            <i class="fa fa-arrow-up arrow" aria-hidden="true"></i>
+        </section>
+        <section id="albums">
+            <div class="no-albums">
+                <div><img src="resources/images/loader5.gif" alt=""></div>
+            </div>
+            <div class="albums-container">
+
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </main>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.arctext.js" type="text/javascript"></script>
+
+    <!-- Main js -->
+
+    <script src="js/function.js" type="text/javascript"></script>
+</body>
+</html>

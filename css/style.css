@@ -1,0 +1,29 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #EBF0F2;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+header{
+    background-image: url("../resources/images/background.png");
+    background-position: bottom;
+    background-image-size: cover;
+    position: relative;
+    z-index: 4;
+    box-shadow: 0px 5px 49px -9px rgba(0,0,0,0.75);
+}
+header h1{
+    text-shadow: 0px 0px 8px #9575CD;
+    font-size: 40px;
+    padding: 30px;
+    background:#9575CD;
+    color: white;
+    opacity: 0.9;
+}
+
+
+
+

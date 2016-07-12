@@ -1,0 +1,101 @@
+/*Player */
+
+#player{
+    width:700px;
+    height:300px;
+    border-radius: 150px;
+    background: #9575CD;
+    margin:80px auto;
+    position: relative;
+    top:-450px;
+    box-shadow: 15px 15px 60px rgba(30,18,84,0.55);
+    color: white;
+}
+
+#player img{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    border: 3px solid #4527a0;
+}
+
+#player audio{
+    position: absolute;
+    bottom: 15px;
+    right: 120px;
+    border:2px solid #4527A0;
+    background: #4527a0;
+}
+#player .spinning-disc{
+    box-shadow: 15px 15px 30px rgba(30,18,84,0.55);
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: 30px;
+    position: absolute;
+    top: 0px;
+}
+
+#player .disc-circle{
+    background: #EBF0F2;
+    border: 22px solid #4527A0;
+    position: absolute;
+    top: 50%;
+    left: 106px;
+    transform: translate(0, -50%);
+    z-index: 2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: inset -10px -10px 40px rgba(30,18,84,0.55)
+}
+#player .arrow{
+    position: absolute;
+    z-index: 2;
+    bottom: -30px;
+    color: #4527a0;
+    font-size: 1.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.8;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+#player .arrow:hover{
+    opacity: 1;
+}
+#player h4{
+    margin-left: 325px;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4527a0;
+}
+#player .songs-container{
+    margin-left: 325px;
+    margin-top: 15px;
+}
+#player .songs-container .song{
+    margin-bottom: 5px;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    opacity: 0.8;
+}
+#player .songs-container .song:hover{
+    opacity: 1;
+}
+#player .player-album-title{
+    position: absolute;
+    top: -37px;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%,0);
+    font-size: 32px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4527a0;
+}

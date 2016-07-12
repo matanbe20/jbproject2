@@ -1,0 +1,60 @@
+/* Control */
+
+.control{
+    padding: 0 30px;
+    position: relative;
+    background:#4527A0;
+    color:white;
+    opacity: 0.9;
+    height:85px;
+}
+.control .adding-album{
+    display: inline-block;
+    line-height: 85px;
+}
+.control .search{
+    display: inline-block;
+    position: absolute;
+    right:15px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.control #search-input{
+    height: 20px;
+    padding: 5px;
+    border: none;
+    background-color: #D1C4E9;
+}
+.control #search-input::-webkit-input-placeholder{
+    color: #7160a8;
+}
+
+.control #search-input:focus{
+    box-shadow: inset 0px 0px 75px -45px rgba(0,0,0,0.75);
+}
+.control #search-btn{
+    position: absolute;
+    right:15px;
+    top: 50%;
+    cursor: pointer;
+    color: #311B92;
+    transform: translateY(-50%);
+}
+.control #show-modal{
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.2s;
+    opacity: 0.8;
+}
+.control #show-modal:hover{
+    opacity:1;
+}
+.control .add-plus{
+    font-size: 1.1em;
+}
+.control #show-modal:hover.add-plus{
+    font-size: 1.1em;
+}
+
